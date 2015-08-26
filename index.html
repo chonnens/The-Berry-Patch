@@ -7,6 +7,8 @@
 <link rel="stylesheet" href="css/normalize.css" />
 <link rel="stylesheet" href="css/foundation.css" />
 <link rel="stylesheet" href="css/masonry.css" />
+<link rel="stylesheet" type="text/css" href="css/slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="css/slick/slick-theme.css"/>
 <script src="js/vendor/modernizr.js"></script>
 </head>
 <body>
@@ -98,13 +100,22 @@
 
   </section>
 </div>
-<div class="row">
-<div class="small-8 small-centered columns">
-  <blockquote>
-    <p>In cibo graecis duo, tation primis vix ad, est ex alii erant sadipscing. In vis nibh eripuit. Oratio altera ad mel, vis te reque graece, an agam utroque definitiones pri. Mel veniam nonumy partiendo ne, no qui libris debitis recteque.</p>
-    <cite>—John Doe</cite></blockquote>
-    </div>
+<div class="columns small-2 small-centered">
+<img src="http://www.placehold.it/100x100"/>
 </div>
+    <div class="fade small-8 small-centered columns">
+   <div><blockquote>
+    <p>In cibo graecis duo, tation primis vix ad, est ex alii erant sadipscing. In vis nibh eripuit. Oratio altera ad mel, vis te reque graece, an agam utroque definitiones pri. Mel veniam nonumy partiendo ne, no qui libris debitis recteque.</p>
+    <cite>—John Doe</cite></blockquote></div>
+  <div><blockquote>
+    <p>In cibo graecis duo, tation primis vix ad, est ex alii erant sadipscing. In vis nibh eripuit. Oratio altera ad mel, vis te reque graece, an agam utroque definitiones pri. Mel veniam nonumy partiendo ne, no qui libris debitis recteque.</p>
+    <cite>—John Doe</cite></blockquote></div>
+  <div><blockquote>
+    <p>In cibo graecis duo, tation primis vix ad, est ex alii erant sadipscing. In vis nibh eripuit. Oratio altera ad mel, vis te reque graece, an agam utroque definitiones pri. Mel veniam nonumy partiendo ne, no qui libris debitis recteque.</p>
+    <cite>—John Doe</cite></blockquote></div>
+    </div>
+    </div>
+
 <section>
 
   <div class="row">
@@ -113,9 +124,9 @@
     </div>
     <div class="small-centered small-8 columns">
     <ul>
-      <li><a href="https://www.facebook.com/pages/The-Berry-Patch/175481347437?fref=ts">Facebook</a></li>
-      <li> <a href="https://www.facebook.com/pages/The-Berry-Patch/175481347437?fref=ts">Etsy</a></li>
-      <li> <a href="https://www.facebook.com/pages/The-Berry-Patch/175481347437?fref=ts">Instagram</a></li>
+      <li class="left"><a href="https://www.facebook.com/pages/The-Berry-Patch/175481347437?fref=ts"><img src="http://www.placehold.it/100x100"/></a></li>
+      <li class="left"> <a href="https://www.facebook.com/pages/The-Berry-Patch/175481347437?fref=ts"><img src="http://www.placehold.it/100x100"/></a></li>
+      <li class="left"> <a href="https://www.facebook.com/pages/The-Berry-Patch/175481347437?fref=ts"><img src="http://www.placehold.it/100x100"/></a></li>
     </ul>
     </div>
   </div>
@@ -150,7 +161,8 @@
 
 
 <script src="js/vendor/jquery.js"></script> 
-<script src="js/foundation.min.js"></script> 
+<script src="js/foundation.min.js"></script>
+<script src="js/vendor/slick.js"></script> 
 <script>
   $(document).foundation();
 </script> 
@@ -164,6 +176,21 @@
           isFitWidth: true
      });	
 });
+</script>
+<script type="text/javascript">
+        $(document).ready(function(){       
+$('.fade').slick({
+    dots: true,
+    infinite: true,
+    speed: 700,
+    autoplay:true,
+    autoplaySpeed: 3000,
+    arrows:false,
+    slidesToShow: 1,
+    slidesToScroll: 1
+ });
+    
+        });
 </script>
 </body>
 </html>
