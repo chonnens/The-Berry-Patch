@@ -89,3 +89,7 @@ margin:none;
   list-style-type:none; 
   text-decoration:none;
 }
+
+input[type=submit] {
+    width: 20em;
+}
