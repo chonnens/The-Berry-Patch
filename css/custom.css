@@ -75,3 +75,13 @@ height:145px;
 blockquote {
 margin:none;	
 }
+
+.top-bar{
+  height:100px;
+}
+
+.hero-text{
+  float:left;
+  margin-top:20%;
+  margin-left:10%;
+}
