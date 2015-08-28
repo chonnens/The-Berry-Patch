@@ -76,15 +76,12 @@ blockquote {
 margin:none;	
 }
 
-.top-bar{
-  height:100px;
-}
-
 .hero-text{
   float:left;
   margin-top:20%;
   margin-left:10%;
 }
+
 .no-underline{
   list-style-type:none; 
   text-decoration:none;
@@ -93,3 +90,4 @@ margin:none;
 input[type=submit] {
     width: 10em;
 }
+
