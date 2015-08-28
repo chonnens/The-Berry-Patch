@@ -51,3 +51,23 @@
         bottom: 0px; } }
 		/* CSS Document */
 
+
+
+
+.text-center{
+text-align:center;	
+}
+
+.no-bullets {
+list-style-type:none;	
+padding:0;
+}
+
+
+.above-row-margin {
+margin-top:100px;	
+}
+
+.message-box {
+height:145px;
+}
