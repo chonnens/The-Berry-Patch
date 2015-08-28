@@ -71,3 +71,7 @@ margin-top:100px;
 .message-box {
 height:145px;
 }
+
+blockquote {
+margin:none;	
+}
