@@ -118,3 +118,8 @@ border-radius:3px;
     border: 1px solid grey;
 	border-radius:3px;
 }
+
+footer {
+background-color:grey;
+padding:20px 0;
+}
