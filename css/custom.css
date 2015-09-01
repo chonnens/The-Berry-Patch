@@ -91,3 +91,15 @@ input[type=submit] {
     width: 10em;
 }
 
+ul.right li{
+display:inline-block;
+}
+ul.right {
+ text-align:center;
+}
+.top-bar-section ul li>a{
+  padding:0;
+}
+ul.left  {
+ text-align:center;
+}
