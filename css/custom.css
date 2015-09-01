@@ -82,7 +82,7 @@ margin:none;
   margin-left:10%;
 }
 
-.no-underline{
+a{
   list-style-type:none; 
   text-decoration:none;
 }
@@ -102,4 +102,19 @@ ul.right {
 }
 ul.left  {
  text-align:center;
+}
+
+
+#container img {
+	
+border-radius:3px;
+}
+
+
+
+#container p {
+    padding: 17px 5px 13px;
+    margin: -4px 0 0 0;
+    border: 1px solid grey;
+	border-radius:3px;
 }
