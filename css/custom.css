@@ -90,12 +90,15 @@ a{
 input[type=submit] {
     width: 10em;
 }
+/* NAV */
 
 ul.right li{
 display:inline-block;
 }
 ul.right {
  text-align:center;
+ background-color:#333333;
+
 }
 .top-bar-section ul li>a{
   padding:0;
@@ -103,7 +106,6 @@ ul.right {
 ul.left  {
  text-align:center;
 }
-
 
 #container img {
 	
@@ -119,7 +121,11 @@ border-radius:3px;
 	border-radius:3px;
 }
 
-footer {
-background-color:grey;
-padding:20px 0;
+/*small*/
+
+@media only screen and (max-width: 40em) { 
+  ul.right li {
+      margin: 0 30px;
+  }
 }
+
