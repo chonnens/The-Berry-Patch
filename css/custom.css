@@ -121,9 +121,34 @@ border-radius:3px;
 	border-radius:3px;
 }
 
-@media only screen and (max-width: 40em) { 
+
+#container img {
+	
+border-radius:3px;
+}
+
+
+
+#container p {
+    padding: 17px 5px 13px;
+    margin: -4px 0 0 0;
+    border: 1px solid grey;
+	border-radius:3px;
+}
+
+footer {
+background-color:grey;
+padding:20px 0;
+}
+
+
+
+
+@media only screen and (max-width: 60em) { 
   ul.right li {
       margin: 0 30px;
   }
 }
+
+
 
