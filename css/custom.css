@@ -1,4 +1,7 @@
 @charset "UTF-8";
+
+/* CSS Document */
+
 #homepage-hero {
   background-image:url('http://placehold.it/1400x700');
   height: 680px;
@@ -49,7 +52,7 @@
         position: absolute;
         right: 0;
         bottom: 0px; } }
-		/* CSS Document */
+		
 
 
 
@@ -89,6 +92,7 @@ a{
 
 input[type=submit] {
     width: 10em;
+	border-radius:3px;
 }
 /* NAV */
 
@@ -141,14 +145,22 @@ background-color:grey;
 padding:20px 0;
 }
 
+.button-style {
+background-color: #98d2c3;
+border-radius:3px;	
+}
 
-
-
+.button-style:hover, .button-style:focus {
+	
+			background:#8cc4b4;
+		}
 @media only screen and (max-width: 60em) { 
   ul.right li {
       margin: 0 30px;
   }
 }
+
+
 
 
 
