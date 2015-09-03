@@ -38,6 +38,8 @@ a{
 
 input[type=submit] {
     width: 10em;
+	border-radius:3px;
+	
 }
 
 /* NAV */
@@ -92,7 +94,40 @@ padding:20px 0;
 }
 
 
+.button-style {
+background-color: #98d2c3;
+border-radius:3px;
+}
 
+.button-style:hover, .button-style:focus {
+background:#8cc4b4;
+}
+
+.slick-dots {
+position:relative;
+margin:0 auto;	
+}
+
+
+/*HERO*/
+header{
+  height:80%;
+}
+
+.hero{background:url(http://placehold.it/1400x700);
+background-size:cover;
+height:100%;
+}
+
+
+.intro-text{padding-top:40%;color:rgba(255,255,255,1);
+  text-align:left;
+  }
+  
+  
+  @media only screen and (min-width: 40.063em) {.intro-text{padding-top:25%;}}
+  @media only screen and (min-width: 64.063em) {.intro-text{padding-top:18%;}}.intro-text p{font-family:'Shadows Into Light',cursive;font-size:44px;
+}
 
 
 
