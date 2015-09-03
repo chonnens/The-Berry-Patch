@@ -66,6 +66,12 @@ list-style-type:none;
 padding:0;
 }
 
+.slick-dots{
+position:relative;	
+margin:0 auto;
+bottom:-20px;
+}
+
 
 .above-row-margin {
 margin-top:100px;	
