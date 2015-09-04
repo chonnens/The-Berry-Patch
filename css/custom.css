@@ -175,7 +175,17 @@ background-size:cover;
 height:100%;
 }
 
+/**********    RULES   *********/
 
+hr.style1{
+  border-top: 20px solid #98d2c3;
+  border-radius: 5px;
+}
+
+hr.style2{
+  border-top: 20px solid #98d2c3;
+  border-radius: 5px;
+  }
  
  
  
