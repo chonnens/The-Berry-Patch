@@ -1,20 +1,82 @@
 @charset "UTF-8";
 
 
-		/* CSS Document */
+/* TYPOGRAPHY */
+
+@font-face {
+font-family: "sugar-plums";
+src: url("../fonts/sugar-plums.woff") format('woff');
+}
+
+h1, h2 {
+font-family:"sugar-plums";
+}
+
+h2{
+font-size:60px;
+color:#98d2c3;
+}
+
+h1{
+font-size:80px;	
+letter-spacing:-4px;
+color:white;
+margin-bottom:0;
+}
+
+p, cite {
+font-family: 'Raleway', sans-serif;
+line-height:28px;	
+color:#a7a9ac;
+}
+
+body {
+background-color:white;	
+}
+
+.single-sentence p {
+font-size:35px;
+color:#98d2c3;
+line-height:50px;
+}
+
+.col3 span {
+font-weight:700;	
+}
+
+.col3 p {
+font-size:14px;
+}
+
+small {
+color:white;
+font-family:'raleway', sans-serif;	
+}
+
+
+
+.no-right-padding{
+padding-right:0;	
+}
+
+.no-left-padding{
+padding-left:0;	
+}
+
+/*********** ALIGNMENT ***********/
+
 
 .text-center{
 text-align:center;	
 }
 
+.above-row-margin {
+margin-top:100px;	
+}
+
 .no-bullets {
 list-style-type:none;	
 padding:0;
-}
-
-
-.above-row-margin {
-margin-top:100px;	
 }
 
 .message-box {
@@ -39,60 +101,51 @@ a{
 input[type=submit] {
     width: 10em;
 	border-radius:3px;
-	
 }
 
-/* NAV */
+.intro-text{
+  padding-top:8%;
+  text-align:left;
+  }
+  
+footer {
+background-color:#98d2c3;
+padding:20px 0;
+}
+
+/*********** NAV ***********/
 
 ul.right li{
 display:inline-block;
 }
-ul.right {
- text-align:center;
- background-color:#333333;
 
+ul.right {
+text-align:center;
+background-color:#333333;
 }
+
 .top-bar-section ul li>a{
-  padding:0;
+padding:0;
 }
+
 ul.left  {
  text-align:center;
 }
 
+
+
+/*********** PRODUCTS ***********/
+
 #container img {
-	
 border-radius:3px;
 }
 
-
-
 #container p {
-    padding: 17px 5px 13px;
-    margin: -4px 0 0 0;
-    border: 1px solid grey;
-	border-radius:3px;
-}
-
-
-#container img {
-	
+padding: 17px 5px 13px;
+margin: -4px 0 0 0;
+border: 1px solid grey;
 border-radius:3px;
 }
-
-
-
-#container p {
-    padding: 17px 5px 13px;
-    margin: -4px 0 0 0;
-    border: 1px solid grey;
-	border-radius:3px;
-}
-
-footer {
-background-color:grey;
-padding:20px 0;
-}
-
 
 .button-style {
 background-color: #98d2c3;
@@ -109,33 +162,81 @@ margin:0 auto;
 }
 
 
-/*HERO*/
+
+/**********   HERO   **********/
+
 header{
-  height:80%;
+height:75%;
 }
 
-.hero{background:url(http://placehold.it/1400x700);
+.hero{
+background:url(http://placehold.it/1400x700);
 background-size:cover;
 height:100%;
 }
 
 
-.intro-text{padding-top:40%;color:rgba(255,255,255,1);
-  text-align:left;
-  }
-  
-  
-  @media only screen and (min-width: 40.063em) {.intro-text{padding-top:25%;}}
-  @media only screen and (min-width: 64.063em) {.intro-text{padding-top:18%;}}.intro-text p{font-family:'Shadows Into Light',cursive;font-size:44px;
+ 
+ 
+ 
+ 
+ 
+ 
+ /*********** MEDIA QUERIES ***********/
+
+
+@media only screen and (max-width: 40em) {  /*ONLY SMALL*/
+
+.intro-text{
+margin-left:1%;
+text-align:center;
 }
 
-
-
-@media only screen and (max-width: 60em) { 
-  ul.right li {
-      margin: 0 30px;
-  }
+.single-sentence p{
+font-size:20px;	
 }
+} 
+
+
+
+@media only screen and (max-width: 60em) {     /*SMALL AND MEDIUM*/
+
+ul.right li {
+margin: 0 30px;
+  }
+  
+h1 {
+font-size:70px;  
+  }
+  
+h2 {
+font-size:40px;  
+  }
+  
+p {
+font-size:14px;  
+  }
+  
+}
+
+@media only screen and (min-width: 40.063em) {  /*MEDIUM AND UP*/
+
+} 
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {   /*ONLY MEDIUM*/
+
+.intro-text{
+  margin-left:5%;
+}
+
+.single-sentence p{
+font-size:25px;	
+}
+} 
+
+
+
+@media only screen and (min-width: 64.063em) { }  /*LARGE AND UP*/
 
 
 
