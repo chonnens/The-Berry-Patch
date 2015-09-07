@@ -71,7 +71,11 @@ text-align:center;
 }
 
 .above-row-margin {
-margin-top:100px;	
+margin-top:150px;	
+}
+
+.below-hero-margin {
+margin-top:200px; 
 }
 
 .no-bullets {
@@ -117,21 +121,43 @@ padding:20px 0;
 
 ul.right li{
 display:inline-block;
+margin-top:30px;
 }
 
 ul.right {
 text-align:center;
-background-color:#333333;
+background-color:#98d2c3;
+
 }
 
 .top-bar-section ul li>a{
 padding:0;
+
 }
 
 ul.left  {
  text-align:center;
+ margin-top:30px;
+
 }
 
+li.logo{
+  height:100px;
+  width:100px;
+}
+
+.top-bar {
+    background: #98d2c3;
+    height: 7rem;
+    line-height: 2.8125rem;
+    margin-bottom: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.top-bar.expanded .title-area {
+    background: #98D2C3;
+}
 
 
 /*********** PRODUCTS ***********/
@@ -166,7 +192,7 @@ margin:0 auto;
 /**********   HERO   **********/
 
 header{
-height:75%;
+height:80%;
 }
 
 .hero{
@@ -180,18 +206,10 @@ height:100%;
 hr.style1{
   border-top: 20px solid #98d2c3;
   border-radius: 5px;
+  margin-top:45%;
 }
 
-hr.style2{
-  border-top: 20px solid #98d2c3;
-  border-radius: 5px;
-  }
- 
- 
- 
- 
- 
- 
+
  /*********** MEDIA QUERIES ***********/
 
 
@@ -208,12 +226,21 @@ font-size:20px;
 } 
 
 
+@media only screen and (min-width: 58.75em){
+.top-bar-section li:not(.has-form) a:not(.button) {
+    background: #98D2C3;
+    line-height: 2.8125rem;
+    padding: 0 0.9375rem;
+  }
+}
+
 
 @media only screen and (max-width: 60em) {     /*SMALL AND MEDIUM*/
 
-ul.right li {
+  ul.right li {
 margin: 0 30px;
   }
+
   
 h1 {
 font-size:70px;  
@@ -227,6 +254,11 @@ p {
 font-size:14px;  
   }
   
+.top-bar-section li:not(.has-form) a:not(.button) {
+    background: #98D2C3;
+    line-height: 2.8125rem;
+    padding: 0 0.9375rem;
+  }
 }
 
 @media only screen and (min-width: 40.063em) {  /*MEDIUM AND UP*/
@@ -236,17 +268,24 @@ font-size:14px;
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {   /*ONLY MEDIUM*/
 
 .intro-text{
-  margin-left:5%;
+  margin-left:20%;
 }
 
 .single-sentence p{
 font-size:25px;	
+  }
 }
-} 
-
 
 
 @media only screen and (min-width: 64.063em) { }  /*LARGE AND UP*/
+
+ul.right li {
+margin: 0 10px;
+margin-top:30px;
+}
+
+}
+
 
 
 
