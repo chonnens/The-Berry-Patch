@@ -127,7 +127,6 @@ display:inline-block;
 ul.right {
 text-align:center;
 background-color:#98d2c3;
-margin-bottom:30px;
 
 }
 
@@ -165,6 +164,11 @@ ul.title-area{
   height:80px;
 }
 
+/******* Small and Medium Social Media Buttons *******/
+img {
+    display: inline-block;
+    vertical-align: baseline;
+}
 
 
 /*********** PRODUCTS ***********/
@@ -212,7 +216,7 @@ height:100%;
 
 hr.style1{
   border-top: 10px solid #98d2c3;
-  border-radius: 5px;
+  border-radius: 2px;
   margin-top:25%;
 }
 
@@ -241,10 +245,8 @@ hr.style1{
   border-top: 5px solid #98d2c3;
   border-radius: 5px;
   margin-top:25%;
+  }
 }
-
-} 
-
 
 @media only screen and (min-width: 58.75em){
 .top-bar-section li:not(.has-form) a:not(.button) {
@@ -275,10 +277,10 @@ p {
 font-size:14px;  
   }
 
-
   .top-bar.expanded .title-area {
     background: #98D2C3;
-    margin-bottom:0 ;
+    margin-bottom:0px ;
+    margin-top:0px;
   }
 
   
@@ -288,8 +290,10 @@ font-size:14px;
     padding: 0 0.9375rem;
   }
 
-  .below-hero-margin {
-position:relative;
+ul.left  {
+ text-align:center;
+ margin-top:0px;
+
 }
 
 }
