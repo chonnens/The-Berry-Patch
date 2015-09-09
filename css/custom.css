@@ -53,8 +53,6 @@ color:white;
 font-family:'raleway', sans-serif;	
 }
 
-
-
 .no-right-padding{
 padding-right:0;	
 }
@@ -164,6 +162,52 @@ ul.title-area{
   height:80px;
 }
 
+
+	/**********   SOCIAL MEDIA   **********/
+
+#facebook {
+	background-image:url(../img/social-nav-static-fb.svg);
+	width: 50px;
+	height:50px;
+}
+
+
+#facebook:hover {
+	background-image:url(../img/social-nav-hover-fb.svg);
+	width: 50px;
+	height:50px;	
+}
+
+
+#etsy {
+	background-image:url(../img/social-nav-static-etsy.svg);
+	width: 50px;
+	height:50px;
+}
+
+
+#etsy:hover {
+	background-image:url(../img/social-nav-hover-etsy.svg);
+	width: 50px;
+	height:50px;	
+}
+
+#insta {
+	background-image:url(../img/social-nav-static-insta.svg);
+	width: 50px;
+	height:50px;
+}
+
+
+#insta:hover {
+	background-image:url(../img/social-nav-hover-insta.svg);
+	width: 50px;
+	height:50px;	
+}
+
+
+
+
 /******* Small and Medium Social Media Buttons *******/
 img {
     display: inline-block;
@@ -200,6 +244,7 @@ margin:0 auto;
 
 
 
+
 /**********   HERO   **********/
 
 header{
@@ -224,6 +269,51 @@ hr.style1{
   height:50%;
   width:50%;
   margin-left:20%;
+}
+
+
+
+
+
+
+#fb-large {
+	background-image:url(../img/social-large-static-fb.svg)
+	width: 50px;
+	height:50px;
+}
+
+
+#fb-large:hover {
+	background-image:url(../img/social-large-hover-fb.svg);
+	width: 50px;
+	height:50px;	
+}
+
+
+#etsy-large {
+	background-image:url(../img/social-large-static-etsy.svg);
+	width: 50px;
+	height:50px;
+}
+
+
+#etsy-large:hover {
+	background-image:url(../img/social-large-hover-etsy.svg);
+	width: 50px;
+	height:50px;	
+}
+
+#insta-large {
+	background-image:url(../img/social-large-static-insta.svg);
+	width: 50px;
+	height:50px;
+}
+
+
+#insta-large:hover {
+	background-image:url(../img/social-large-hover-insta.svg);
+	width: 50px;
+	height:50px;	
 }
 
 
@@ -253,6 +343,11 @@ hr.style1{
     background: #98D2C3;
     line-height: 2.8125rem;
     padding: 0 0.9375rem;
+  }
+  
+  
+  .top-bar-section li:not(.has-form) a:not(.button):hover {
+	background-color:  #98D2C3;
   }
 }
 
@@ -320,11 +415,3 @@ font-size:25px;
 
 
 @media only screen and (min-width: 64.063em) { }  /*LARGE AND UP*/
-
-
-
-}
-
-
-
-
