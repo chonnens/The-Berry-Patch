@@ -144,6 +144,8 @@ padding:0;
 ul.left  {
  text-align:center;
  margin-top:20px;
+ margin-left:95px;
+
 }
 
 ul.left li a: {
@@ -271,7 +273,7 @@ height:80%;
 }
 
 .hero{
-background:url(http://placehold.it/1400x700);
+background:url(../img/placeholder-hero.jpg);
 background-size:cover;
 height:100%;
 }
@@ -296,7 +298,7 @@ hr.style1{
 
 
 #fb-large {
-	background-image:url(../img/social-large-static-fb.svg)
+	background-image:url(../img/social-large-static-fb.svg);
 	width: 50px;
 	height:50px;
 }
@@ -357,20 +359,6 @@ hr.style1{
   }
 }
 
-@media only screen and (min-width: 58.75em){
-.top-bar-section li:not(.has-form) a:not(.button) {
-    background: #98D2C3;
-    line-height: 2.8125rem;
-    padding: 0 0.9375rem;
-  }
-  
-  
-  .top-bar-section li:not(.has-form) a:not(.button):hover {
-	background-color:  #98D2C3;
-  }
-}
-
-
 @media only screen and (max-width: 60em) {     /*SMALL AND MEDIUM*/
 
    ul.right li {
@@ -407,8 +395,15 @@ font-size:14px;
 ul.left  {
  text-align:center;
  margin-top:0px;
+ margin-left:0px;
 
 }
+ul.right {
+  text-align:center;
+  background-color:#98d2c3;
+  margin-right:0px;
+
+  }
 
 }
 
@@ -418,6 +413,13 @@ ul.left  {
 margin: 0 10px;
 margin-top:15px;
 }
+ul.right {
+text-align:center;
+background-color:#98d2c3;
+margin-right:0px;
+
+}
+
 
 } 
 
@@ -432,8 +434,46 @@ font-size:25px;
   }
 }
 
+@media only screen and (min-width: 58.75em){      /*TOP BAR LARGE AND UP */
+  .top-bar-section li:not(.has-form) a:not(.button) {
+      background: #98D2C3;
+      line-height: 2.8125rem;
+      padding: 0 0.9375rem;
+    }
+  .top-bar-section li:not(.has-form) a:not(.button):hover {
+    background-color:  #98D2C3;
+    }
+  ul.left  {
+   text-align:center;
+   margin-top:20px;
+   margin-left:95px;
 
-@media only screen and (min-width: 64.063em) { }  /*LARGE AND UP*/
+
+  }
+  ul.right {
+  text-align:center;
+  background-color:#98d2c3;
+  margin-right:95px;
+
+  }
+}
+
+
+@media only screen and (min-width: 64.063em) {   /*LARGE AND UP*/
+
+  ul.left  {
+   text-align:center;
+   margin-top:20px;
+   margin-left:95px;
+
+  }
+  ul.right {
+  text-align:center;
+  background-color:#98d2c3;
+  margin-right:95px;
+
+  }
+}  
 
 #facebook-large, #facebook-large:hover, #etsy-large, #etsy-large:hover, #insta-large, #insta-large:hover{
 	width: 125px;
