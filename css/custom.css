@@ -16,7 +16,9 @@ h2{
 font-size:60px;
 color:#98d2c3;
 }
-
+.white {
+color:white;	
+}
 h1{
 font-size:80px;	
 letter-spacing:-4px;
@@ -30,13 +32,19 @@ line-height:28px;
 color:#a7a9ac;
 }
 
+
+ul.left li a {
+font-family: 'Raleway', sans-serif;
+font-size:18px;
+
+}
 body {
 background-color:white;	
 }
 
 .single-sentence p {
 font-size:35px;
-color:#98d2c3;
+color:#a7a9ac;
 line-height:50px;
 }
 
@@ -136,7 +144,14 @@ padding:0;
 ul.left  {
  text-align:center;
  margin-top:20px;
+}
 
+ul.left li a: {
+font-weight:700;	
+}
+
+ul.left li a:hover {
+font-weight:700;	
 }
 
 li.logo{
@@ -208,6 +223,10 @@ ul.title-area{
 
 
 
+
+
+
+
 /******* Small and Medium Social Media Buttons *******/
 img {
     display: inline-block;
@@ -223,9 +242,10 @@ border-radius:3px;
 
 #container p {
 padding: 17px 5px 13px;
-margin: -4px 0 0 0;
+margin: -6px 0 0 0;
 border: 1px solid grey;
 border-radius:3px;
+line-height:22px;
 }
 
 .button-style {
@@ -241,7 +261,6 @@ background:#8cc4b4;
 position:relative;
 margin:0 auto;	
 }
-
 
 
 
@@ -415,3 +434,43 @@ font-size:25px;
 
 
 @media only screen and (min-width: 64.063em) { }  /*LARGE AND UP*/
+
+#facebook-large, #facebook-large:hover, #etsy-large, #etsy-large:hover, #insta-large, #insta-large:hover{
+	width: 125px;
+	height:125px;
+	display:block;
+}
+
+
+#facebook-large {
+	background-image:url(../img/social-large-static-fb.svg);
+}
+
+
+#facebook-large:hover {
+	background-image:url(../img/social-large-hover-fb.svg);
+
+}
+
+
+#etsy-large {
+	background-image:url(../img/social-large-static-etsy.svg);
+	
+}
+
+
+#etsy-large:hover {
+	background-image:url(../img/social-large-hover-etsy.svg);
+	
+}
+
+#insta-large {
+	background-image:url(../img/social-large-static-insta.svg);
+	
+}
+
+
+#insta-large:hover {
+	background-image:url(../img/social-large-hover-insta.svg);
+	
+}
