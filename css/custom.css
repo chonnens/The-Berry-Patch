@@ -148,12 +148,9 @@ ul.left  {
 
 }
 
-ul.left li a: {
-font-weight:700;	
-}
 
 ul.left li a:hover {
-font-weight:700;	
+font-weight:700;
 }
 
 li.logo{
@@ -294,49 +291,45 @@ hr.style1{
 
 
 
-
-
-
-#fb-large {
-	background-image:url(../img/social-large-static-fb.svg);
-	width: 50px;
-	height:50px;
+#facebook-large, #facebook-large:hover, #etsy-large, #etsy-large:hover, #insta-large, #insta-large:hover{
+	width: 125px;
+	height:125px;
+	display:block;
 }
 
 
-#fb-large:hover {
+#facebook-large {
+	background-image:url(../img/social-large-static-fb.svg);
+}
+
+
+#facebook-large:hover {
 	background-image:url(../img/social-large-hover-fb.svg);
-	width: 50px;
-	height:50px;	
+
 }
 
 
 #etsy-large {
 	background-image:url(../img/social-large-static-etsy.svg);
-	width: 50px;
-	height:50px;
+	
 }
 
 
 #etsy-large:hover {
 	background-image:url(../img/social-large-hover-etsy.svg);
-	width: 50px;
-	height:50px;	
+	
 }
 
 #insta-large {
 	background-image:url(../img/social-large-static-insta.svg);
-	width: 50px;
-	height:50px;
+	
 }
 
 
 #insta-large:hover {
 	background-image:url(../img/social-large-hover-insta.svg);
-	width: 50px;
-	height:50px;	
+	
 }
-
 
  /*********** MEDIA QUERIES ***********/
 
@@ -475,42 +468,3 @@ font-size:25px;
   }
 }  
 
-#facebook-large, #facebook-large:hover, #etsy-large, #etsy-large:hover, #insta-large, #insta-large:hover{
-	width: 125px;
-	height:125px;
-	display:block;
-}
-
-
-#facebook-large {
-	background-image:url(../img/social-large-static-fb.svg);
-}
-
-
-#facebook-large:hover {
-	background-image:url(../img/social-large-hover-fb.svg);
-
-}
-
-
-#etsy-large {
-	background-image:url(../img/social-large-static-etsy.svg);
-	
-}
-
-
-#etsy-large:hover {
-	background-image:url(../img/social-large-hover-etsy.svg);
-	
-}
-
-#insta-large {
-	background-image:url(../img/social-large-static-insta.svg);
-	
-}
-
-
-#insta-large:hover {
-	background-image:url(../img/social-large-hover-insta.svg);
-	
-}
