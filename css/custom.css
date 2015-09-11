@@ -468,3 +468,55 @@ font-size:25px;
   }
 }  
 
+
+
+#container p {
+padding-right:20%;	
+}
+
+.col3 span {
+	position:absolute;
+	right:5px;
+	text-align:right;
+}
+
+input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], input[type="color"], textarea {
+border: 1px solid #98d2c3;
+border-radius:3px;
+box-shadow:none;
+color:grey;
+font-family: 'Raleway', sans-serif;
+
+}
+
+
+
+
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #98d2c3;
+font-family: 'Raleway', sans-serif;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #98d2c3;
+   opacity:  1;
+   font-family: 'Raleway', sans-serif;
+
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #98d2c3;
+   opacity:  1;
+   font-family: 'Raleway', sans-serif;
+
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #98d2c3;
+   font-family: 'Raleway', sans-serif;
+
+}
+.button-style {
+background-color: #98d2c3;
+border-radius:3px;
+   font-family: 'Raleway', sans-serif;
+
+}
