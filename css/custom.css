@@ -3,6 +3,8 @@
 
 /* TYPOGRAPHY */
 
+
+
 @font-face {
 font-family: "sugar-plums";
 src: url("../fonts/sugar-plums.woff") format('woff');
@@ -61,13 +63,7 @@ color:white;
 font-family:'raleway', sans-serif;	
 }
 
-.no-right-padding{
-padding-right:0;	
-}
 
-.no-left-padding{
-padding-left:0;	
-}
 
 /*********** ALIGNMENT ***********/
 
@@ -78,6 +74,19 @@ text-align:center;
 
 .above-row-margin {
 margin-top:150px;	
+}
+
+
+.below-title-margin {
+margin-bottom:50px;	
+}
+
+p {
+margin-top:0;	
+}
+
+.above-area-margin {
+	margin-top:75px;
 }
 
 .below-hero-margin {
@@ -108,10 +117,6 @@ a{
   text-decoration:none;
 }
 
-input[type=submit] {
-    width: 10em;
-	border-radius:3px;
-}
 
 .intro-text{
   padding-top:8%;
@@ -177,6 +182,14 @@ ul.title-area{
 }
 
 
+	/**********  REVIEWS **********/
+
+#review-quote {
+background:url(../img/reviews-quote.svg);
+height:125px;
+width:125px;	
+}
+
 	/**********   SOCIAL MEDIA   **********/
 
 #facebook {
@@ -220,13 +233,6 @@ ul.title-area{
 }
 
 
-
-
-
-
-
-
-/******* Small and Medium Social Media Buttons *******/
 img {
     display: inline-block;
     vertical-align: baseline;
@@ -261,6 +267,15 @@ position:relative;
 margin:0 auto;	
 }
 
+#container p {
+padding-right:20%;	
+}
+
+.col3 span {
+	position:absolute;
+	right:5px;
+	text-align:right;
+}
 
 
 /**********   HERO   **********/
@@ -287,14 +302,16 @@ hr.style1{
   height:50%;
   width:50%;
   margin-left:20%;
+  margin-bottom:10%;
 }
 
 
 
 #facebook-large, #facebook-large:hover, #etsy-large, #etsy-large:hover, #insta-large, #insta-large:hover{
-	width: 125px;
-	height:125px;
-	display:block;
+	width: 100px;
+	height:100px;
+	display:inline-block;
+
 }
 
 
@@ -331,6 +348,52 @@ hr.style1{
 	
 }
 
+
+ /*********** FORM STYLING ***********/
+
+input[type=submit] {
+    width: 10em;
+	border-radius:3px;
+}
+
+input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], input[type="color"], textarea {
+border: 1px solid #98d2c3;
+border-radius:3px;
+box-shadow:none;
+color:grey;
+font-family: 'Raleway', sans-serif;
+
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #98d2c3;
+font-family: 'Raleway', sans-serif;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #98d2c3;
+   opacity:  1;
+   font-family: 'Raleway', sans-serif;
+
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #98d2c3;
+   opacity:  1;
+   font-family: 'Raleway', sans-serif;
+
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #98d2c3;
+   font-family: 'Raleway', sans-serif;
+
+}
+.button-style {
+background-color: #98d2c3;
+border-radius:3px;
+   font-family: 'Raleway', sans-serif;
+
+}
+
+
  /*********** MEDIA QUERIES ***********/
 
 
@@ -343,6 +406,7 @@ text-align:center;
 
 .single-sentence p{
 font-size:20px;	
+line-height:40px;
 }
 
 hr.style1{
@@ -350,6 +414,29 @@ hr.style1{
   border-radius: 5px;
   margin-top:25%;
   }
+#insta-large, #etsy-large, #facebook-large, #insta-large:hover, #etsy-large:hover, #facebook-large:hover {
+height:75px;
+width:75px;	
+}
+  
+  .col3 { width: 160px; }
+  .col3 img{ width: 160px; }
+  
+  #container p {
+	font-size:12px;  
+	line-height:17px;
+  }
+  
+  
+  #review-quote {
+background:url(../img/reviews-quote.svg);
+height:100px;
+width:100px;	
+}
+
+#about-top-small {
+margin-top:50px;	
+}
 }
 
 @media only screen and (max-width: 60em) {     /*SMALL AND MEDIUM*/
@@ -425,6 +512,12 @@ margin-right:0px;
 .single-sentence p{
 font-size:25px;	
   }
+  
+  #insta-large, #etsy-large, #facebook-large, #insta-large:hover, #etsy-large:hover, #facebook-large:hover {
+height:100px;
+width:100px;	
+}
+
 }
 
 @media only screen and (min-width: 58.75em){      /*TOP BAR LARGE AND UP */
@@ -469,54 +562,3 @@ font-size:25px;
 }  
 
 
-
-#container p {
-padding-right:20%;	
-}
-
-.col3 span {
-	position:absolute;
-	right:5px;
-	text-align:right;
-}
-
-input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], input[type="color"], textarea {
-border: 1px solid #98d2c3;
-border-radius:3px;
-box-shadow:none;
-color:grey;
-font-family: 'Raleway', sans-serif;
-
-}
-
-
-
-
-
-::-webkit-input-placeholder { /* WebKit, Blink, Edge */
-    color:    #98d2c3;
-font-family: 'Raleway', sans-serif;
-}
-:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-   color:    #98d2c3;
-   opacity:  1;
-   font-family: 'Raleway', sans-serif;
-
-}
-::-moz-placeholder { /* Mozilla Firefox 19+ */
-   color:    #98d2c3;
-   opacity:  1;
-   font-family: 'Raleway', sans-serif;
-
-}
-:-ms-input-placeholder { /* Internet Explorer 10-11 */
-   color:    #98d2c3;
-   font-family: 'Raleway', sans-serif;
-
-}
-.button-style {
-background-color: #98d2c3;
-border-radius:3px;
-   font-family: 'Raleway', sans-serif;
-
-}

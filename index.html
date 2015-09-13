@@ -27,7 +27,7 @@
     2. Hero Space
     3. Intro Quote
     4. Our Products
-    5. About The Berry OPatch
+    5. About The Berry Patch
     6. Contact Us
     	a. Social Media
         b. Contact Form
@@ -42,7 +42,7 @@
   
   
  		 <!--a. topbar-->
-  <nav class="top-bar">
+  <nav class="top-bar" data-topbar role="navigation ">
   
     <ul class="title-area">
       <li class="logo"> <img src="img/the-berry-patch-nav-logo.svg" alt="The Berry Patch Logo"> </li>
@@ -55,9 +55,9 @@
  	     <!-- b. Left Nav Section -->
       
       <ul class="left">
-        <li><a href="#products">Products</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#products">products</a></li>
+        <li><a href="#about">about</a></li>
+        <li><a href="#contact">contact</a></li>
       </ul>
   
       
@@ -79,8 +79,8 @@
         <div class="row">
           <div class="columns intro-text">
              <h1>Welcome To<br> The Berry Patch</h1>
-             <p class="white">A handmade clothing boutique.</p>
-             <div><a href="https://www.etsy.com/shop/theberrypatch09" class="button button-style">Shop Now</a> </div>
+             <p class="white">a handmade clothing boutique.</p>
+             <div><a href="https://www.etsy.com/shop/theberrypatch09" class="button button-style">shop now</a> </div>
           </div>
         </div>
       </div>
@@ -90,14 +90,14 @@
 
 <!-- 3. Intro Quote -->
 
-<div class="row below-hero-margin">
-  <div class="medium-4 columns small-4 columns">
+<div class="row above-row-margin">
+  <div class="small-4 columns">
     <hr class="style1">
   </div>
-  <div class="medium-4 columns small-4 columns">
+  <div class="small-4 columns">
    <div class="gray-logo"> <img src="img/the-berry-patch-gray-logo.svg" alt="Gray Berry Patch Logo"></div>
   </div>
-  <div class="medium-4 columns small-4 columns">
+  <div class="small-4 columns">
     <hr class="style1">
   </div>
 </div>
@@ -105,7 +105,7 @@
 <div class="row">
   <div class="single-sentence">
     <div class="small-centered small-10 large-12 columns text-center">
-      <p>The Berry Patch is a handmade boutique located in Omaha, Nebraska. Each and every piece is stitched by hand and available to customize. </p>
+      <p>The Berry Patch is a handmade boutique located in Omaha, Nebraska. Each and every piece is stitched by hand and many are available to customize. </p>
     </div>
   </div>
 </div>
@@ -116,8 +116,8 @@
 <!-- 4. Products -->
 
 <div class="row above-row-margin">
-  <div class="small-centered small medium-6 columns text-center">
-    <h2 id="products">Products</h2>
+  <div class="small-centered columns text-center">
+    <h2 id="products" class="below-title-margin">Our Products</h2>
   </div>
 </div>
 <div class="row">
@@ -182,26 +182,26 @@
 <section>
   <div class="row above-row-margin">
     <div class="small-centered columns text-center">
-      <h2 id="about">About The Berry Patch</h2>
+      <h2 id="about" class="below-title-margin">About The Berry Patch</h2>
     </div>
-    <div class="medium-3 small-9 columns small-centered medium-uncentered text-center"><img src="img/about-image.jpg" alt="About Renee"/></div>
-    <div class="small-10 medium-9 columns small-centered medium-uncentered">
-      <div class="medium-6 columns small-centered medium-uncentered">
-        <p>Renee has always had a love for fashionable handmade items and a strong desire to own her own business. In 2008 that dream became a reality when The Berry Patch was born. Mostly inspired by the two little people who call her mom and the every changing times, Renee has created handmade trendy items for not just the little people, but their fashion loving mamas. </p>
+    </div>
+    <div class="row medium-10">
+    <div class="medium-4 small-9 large-4 columns small-centered medium-uncentered text-center"><img src="img/about-image.jpg" alt="Renee Berry"/></div>
+      <div class="small-9 medium-8 large-4 columns small-centered medium-uncentered">
+        <p id="about-top-small">Renee has always had a love for fashionable handmade items and a strong desire to own her own business. In 2008 that dream became a reality when The Berry Patch was born. Mostly inspired by the two little people who call her mom and the ever changing times, Renee has created handmade trendy items for not just the little people, but their fashion loving mamas. </p>
       </div>
-      <div class="medium-6 columns small-centered medium-uncentered">
+      <div class="small-9 medium-8 large-4 columns small-centered medium-uncentered">
         <p>The Berry Patch prides themselves on creating everything by hand. From cutting out each individual appliqué to hand stitching them on the highest quality garments they provide. This insures each item you receive is unique and one of a kind. Pick from one of the many designs already available for purchase or contact us if you’re looking for a more made to order custom design.</p>
       </div>
     </div>
-  </div>
 </section>
 
 
 
 <!-- 6. Customer Reviews -->
 
-<div class="columns small-4 medium-2 small-centered text-center above-row-margin"> <img src="img/reviews-quote.svg" height="125" width="125" alt="text"/> </div>
-<div class="fade   medium-8 small-centered columns">
+<div class="columns small-centered text-center above-row-margin" id="review-quote"> </div>
+<div class="fade medium-10 large-8 small-centered columns">
   <div>
     <blockquote class="text-center">
       <p>Over the past few years I have ordered several items from the Berry Patch and have been extremely happy with each one. The quality, customer service, turn around time, and fair pricing were all excellent. I will definitely be ordering from them again!
@@ -227,13 +227,13 @@
 <section>
   <div class="row above-row-margin">
     <div class="small-centered columns text-center">
-      <h2 id="contact">Let's Get In Touch</h2>
+      <h2 id="contact" class="below-title-margin">Let's Get In Touch</h2>
     </div>
     
     
    		 <!-- a. Social Media Links -->
 
-    <div class="small-centered small-10 medium-6 columns">
+    <div class="small-centered small-10 medium-6 large-8 columns below-title-margin">
       <ul class="no-bullets">
         <li class="text-center small-4 columns"><a href="https://www.facebook.com/pages/The-Berry-Patch/175481347437?fref=ts" id="facebook-large"></a></li>
         <li class="text-center small-4 columns"> <a href="https://www.etsy.com/shop/theberrypatch09" id="etsy-large"></a></li>
@@ -245,28 +245,28 @@
   
      	<!-- b. Contact Form -->
 
-  <div class="row above-row-margin">
-    <div class="small-centered small-10 columns no-right-padding">
+  <div class="row above-area-margin">
+    <div class="small-centered small-12 medium-10 columns ">
       <form>
         <div class="  medium-6 columns">
-          <div class="  columns no-right-padding">
-            <input type="text" name="firstname" placeholder="Your Name:">
+          <div class="  columns ">
+            <input type="text" name="firstname" placeholder="name:">
           </div>
-          <div class="  columns no-right-padding">
-            <input type="email" name="email" placeholder="Your Email:">
+          <div class="  columns">
+            <input type="email" name="email" placeholder="email:">
           </div>
           <br>
-          <div class="  columns no-right-padding">
-            <input type="text" name="hearaboutus" placeholder="How did you hear about us?">
+          <div class="  columns ">
+            <input type="text" name="hearaboutus" placeholder="how did you hear about us?">
           </div>
         </div>
         <div class="medium-6 columns ">
-          <div class="columns no-left-padding">
-            <textarea name="cf_message" class="message-box" placeholder="Your Message:"></textarea>
+          <div class="columns">
+            <textarea name="cf_message" class="message-box" placeholder="message:"></textarea>
           </div>
           <br>
           <div class="columns">
-            <input type="submit" value="Send" class="right button button-style">
+            <input type="submit" value="send" class="right button button-style">
           </div>
         </div>
       </form>
