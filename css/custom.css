@@ -365,6 +365,13 @@ li.logo {
 	height: 5rem;
 	margin-left: 3%;
 }
+.gray-logo {
+	height: 90%;
+	width: 90%;
+	margin:0 auto;
+	padding-bottom:80%;
+	margin;top:-18px;
+}
 }
 
 
