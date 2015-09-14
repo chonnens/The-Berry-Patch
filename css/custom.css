@@ -411,8 +411,8 @@ ul.right {
 	color: #FFFFFF;
 }
 #insta:hover, #facebook:hover, #etsy:hover {
-	width: 3.125rem;
-	height: 3.125rem;
+	width: 3rem;
+	height: 3rem;
 }
 #insta:hover {
 	background-image: url(../img/social-nav-static-insta.svg);
