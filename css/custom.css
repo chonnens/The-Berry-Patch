@@ -93,7 +93,7 @@ p {
 	margin-top: 4.68rem;
 }
 .below-hero-margin {
-	margin-top: 12.5rem;
+	margin-top: 7.5rem;
 }
 .no-bullets {
 	list-style-type: none;
@@ -321,6 +321,11 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
 
 
 @media only screen and (max-width: 40em) {  /*ONLY SMALL*/
+
+
+.above-row-margin {
+	margin-top: 5rem;
+}
 
 .intro-text {
 	margin-left: 1%;
