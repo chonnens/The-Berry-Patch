@@ -363,13 +363,13 @@ hr.style1 {
 li.logo {
 	width: 5rem;
 	height: 5rem;
-	margin-left: 3%;
+	margin-left: 0%;
 }
 .gray-logo {
 	height: 90%;
 	width: 90%;
 	margin:0 auto;
-	padding-bottom:80%;
+	padding-bottom:40%;
 	margin;top:-18px;
 }
 }
@@ -451,7 +451,7 @@ ul.right {
 li.logo {
 	width: 5rem;
 	height: 5rem;
-	margin-left: 15%;
+	margin-left: 0%;
 }
 }
 
@@ -488,7 +488,7 @@ li.logo {
 ul.left {
 	text-align: center;
 	margin-top: 1.25rem;
-	margin-left: 20%;
+	margin-left: 5%;
 }
 ul.right {
 	text-align: center;
@@ -498,7 +498,7 @@ ul.right {
 li.logo {
 	width: 5rem;
 	height: 5rem;
-	margin-left: 220%;
+	margin-left: 0%;
 }
 }
 
@@ -508,7 +508,7 @@ li.logo {
 ul.left {
 	text-align: center;
 	margin-top: 1.25rem;
-	margin-left: 20%;
+	margin-left: 7%;
 }
 ul.right {
 	text-align: center;
@@ -518,6 +518,6 @@ ul.right {
 li.logo {
 	width: 5rem;
 	height: 5rem;
-	margin-left: 220%;
+	margin-left: 0%;
 }
 }
