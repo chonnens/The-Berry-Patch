@@ -108,8 +108,9 @@ blockquote {
 .hero-text {
 	float: left;
 	margin-top: 20%;
-	margin-left: 10%;
 }
+
+
 a {
 	list-style-type: none;
 	text-decoration: none;
@@ -323,12 +324,15 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
 @media only screen and (max-width: 40em) {  /*ONLY SMALL*/
 
 
+h1 {
+	font-size: 3rem;
+}
+
 .above-row-margin {
 	margin-top: 5rem;
 }
 
 .intro-text {
-	margin-left: 1%;
 	text-align: center;
 }
 .single-sentence p {
@@ -372,18 +376,22 @@ li.logo {
 	padding-bottom:40%;
 	margin;top:-18px;
 }
+
+.hero {
+	background: url(../img/placeholder-hero.jpg);
+	background-size:cover;
+	height: 90%;
+}
 }
 
 
-@media only screen and (max-width: 60em) {     /*SMALL AND MEDIUM*/
+@media only screen and (max-width: 58.75em) {     /*SMALL AND MEDIUM*/
 
 ul.right li {
 	margin: 0 .625rem;
 	margin-top: .9375rem;
 }
-h1 {
-	font-size: 4.375rem;
-}
+
 h2 {
 	font-size: 2.5rem;
 }
@@ -455,11 +463,12 @@ li.logo {
 }
 }
 
-@media only screen and (min-width: 40.063em) and (max-width: 64em) {   /*ONLY MEDIUM*/
+@media only screen and (min-width: 40.063em) and (max-width: 58.75em) {   /*ONLY MEDIUM*/
 
-.intro-text {
-	margin-left: 20%;
+h1 {
+	font-size: 4.375rem;
 }
+
 .single-sentence p {
 	font-size: 1.5625rem;
 }
@@ -471,6 +480,18 @@ li.logo {
 	margin-right: 20%;
 	color: #ffffff;
 }
+
+.hero {
+	background: url(../img/placeholder-hero.jpg);
+	background-size:cover;
+	height: 80%;
+}
+
+.intro-text {
+	margin-left:5%;
+}
+
+
 }
 
 
@@ -488,7 +509,7 @@ li.logo {
 ul.left {
 	text-align: center;
 	margin-top: 1.25rem;
-	margin-left: 5%;
+	margin-left: 2%;
 }
 ul.right {
 	text-align: center;
@@ -500,10 +521,12 @@ li.logo {
 	height: 5rem;
 	margin-left: 0%;
 }
+
+
 }
 
 
-@media only screen and (min-width: 64.063em) {   /*LARGE AND UP*/
+@media only screen and (min-width: 58.75em) {   /*LARGE AND UP*/
 
 ul.left {
 	text-align: center;
@@ -521,3 +544,32 @@ li.logo {
 	margin-left: 0%;
 }
 }
+
+@media only screen and (orientation:portrait) {
+ header {
+	height: 60%;
+}
+}
+
+
+@media only screen and (min-width: 90.063em) {
+h1 {
+	color:white; 
+	font-size:6rem;
+} /* min-width 1441px, xlarge screens */
+ header {
+	height: 65%;
+}
+.intro-text {
+	margin-left:-200px;
+}
+
+.xl-left-margin {
+	margin-left:-200px;
+}
+
+ .large-8 {
+    width: 50%; }
+}
+
+
