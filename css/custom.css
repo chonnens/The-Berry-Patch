@@ -92,9 +92,6 @@ p {
 .above-area-margin {
 	margin-top: 4.68rem;
 }
-.below-hero-margin {
-	margin-top: 7.5rem;
-}
 .no-bullets {
 	list-style-type: none;
 	padding: 0;
@@ -488,6 +485,10 @@ h1 {
 	margin-left:5%;
 }
 
+.below-hero-margin {
+	margin-top: -4rem;
+}
+
 
 }
 
@@ -538,6 +539,9 @@ li.logo {
 	width: 5rem;
 	height: 5rem;
 	margin-left: 0%;
+}
+.below-hero-margin {
+	margin-top: 5.5rem;
 }
 }
 
