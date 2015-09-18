@@ -1,0 +1,9 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+:-ms-input-placeholder{ /* Internet Explorer 10-11 */
+	color:grey;
+	font-family: 'Raleway', sans-serif;
+}
+

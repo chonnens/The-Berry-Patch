@@ -291,24 +291,23 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
 	font-family: 'Raleway', sans-serif;
 }
 
-::-webkit-input-placeholder { /* WebKit, Blink, Edge */
-	color:    #98d2c3;
-	font-family: 'Raleway', sans-serif;
+::-webkit-input-placeholder {
+   color: #98d2c3;
 }
-:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-	color:    #98d2c3;
-	opacity:  1;
-	font-family: 'Raleway', sans-serif;
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #98d2c3;  
 }
-::-moz-placeholder { /* Mozilla Firefox 19+ */
-	color:    #98d2c3;
-	opacity:  1;
-	font-family: 'Raleway', sans-serif;
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #98d2c3;  
 }
-:-ms-input-placeholder { /* Internet Explorer 10-11 */
-	color:    #98d2c3;
-	font-family: 'Raleway', sans-serif;
+
+input:-ms-input-placeholder, :-ms-input-placeholder {  
+   color: #98d2c3;  
 }
+
+
 .button-style {
 	font-family: 'Raleway', sans-serif;
 }
