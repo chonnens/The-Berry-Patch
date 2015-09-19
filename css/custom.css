@@ -153,7 +153,10 @@ ul.title-area {
 }
 
 
-
+*{
+	-webkit-tap-highlight-color:transparent }
+	
+	
 	/**********   4. NAV SOCIAL MEDIA  **********/
 
 #facebook, #etsy, #insta, #facebook:hover, #etsy:hover, #insta:hover {
@@ -306,7 +309,6 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
 input:-ms-input-placeholder, :-ms-input-placeholder {  
    color: #98d2c3;  
 }
-
 
 .button-style {
 	font-family: 'Raleway', sans-serif;
