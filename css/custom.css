@@ -1,8 +1,6 @@
 @charset "UTF-8";
-
-
 /*********** 
-	1. Typography/Colors/Border Radius
+	1. Typography/Colors
     2. Alignment
     3. Nav
     4. Nav Social Media
@@ -17,7 +15,7 @@
 	***********/
 	
 	
-/*********** 1. TYPOGRAPHY/COLORS/BORDER RADIUS ***********/
+/*********** 1. TYPOGRAPHY/COLORS***********/
 
 @font-face {
 	font-family: "sugar-plums";
@@ -43,11 +41,9 @@ p, cite {
 	line-height: 1.75rem;
 	color: #a7a9ac;
 }
-
 p, cite, ul.left li a, small {
 	font-family: 'Raleway', sans-serif;
 }
-
 ul.left li a {
 	font-size: 1.125rem;
 }
@@ -65,19 +61,17 @@ body {
 .col3 p {
 	font-size: .875rem;
 }
-
 footer, ul.right, .button-style, .top-bar-section ul li:hover:not(.has-form) > a, #insta:hover, #facebook:hover, #etsy:hover {
 	background-color: #98d2c3;
-	}
-
+}
 a:hover, h2 {
 	color: #98D2C3;
 }
 
+
 /*********** 2. ALIGNMENT ***********/
 
-
-.text-center {
+.text-center, ul.right {
 	text-align: center;
 }
 .above-row-margin {
@@ -89,37 +83,21 @@ a:hover, h2 {
 p {
 	margin-top: 0;
 }
-.above-area-margin {
+.above-contact-margin {
 	margin-top: 4.68rem;
 }
 .no-bullets {
 	list-style-type: none;
 	padding: 0;
 }
-.message-box {
-	height: 9.1rem;
-}
-blockquote {
-	margin: 0;
-}
-.hero-text {
-	float: left;
-	margin-top: 20%;
-}
-
-
 a {
 	list-style-type: none;
 	text-decoration: none;
 }
-.intro-text {
-	padding-top: 8%;
-	text-align: left;
-}
+
 footer {
 	padding: 1.25rem 0;
 }
-
 
 
 /*********** 3. NAV ***********/
@@ -127,14 +105,13 @@ footer {
 ul.right li {
 	display: inline-block;
 }
-ul.right {
-	text-align: center;
-}
+
 .top-bar-section ul li>a {
 	padding: 0;
 }
 ul.left li a:hover {
 	text-decoration: underline;
+	
 }
 .top-bar {
 	background: #98d2c3;
@@ -151,24 +128,20 @@ ul.left li a:hover {
 ul.title-area {
 	height: 5rem;
 }
+* {
+	-webkit-tap-highlight-color: transparent; /*This removes gray box upon click on touch devices*/
+}
 
 
-*{
-	-webkit-tap-highlight-color:transparent }
-	
-	
-	/**********   4. NAV SOCIAL MEDIA  **********/
+/**********   4. NAV SOCIAL MEDIA  **********/
 
 #facebook, #etsy, #insta, #facebook:hover, #etsy:hover, #insta:hover {
 	height: 3rem;
 	width: 3rem;
 }
-
 #facebook:hover, #etsy:hover, #insta:hover {
 	background-color: #98d2c3
-
 }
-
 #facebook {
 	background-image: url(../img/social-nav-static-fb.svg);
 }
@@ -190,7 +163,10 @@ ul.title-area {
 
 
 /**********   5. HERO   **********/
-
+.intro-text {
+	padding-top: 8%;
+	text-align: left;
+}
 header {
 	height: 80%;
 }
@@ -203,7 +179,7 @@ header {
 
 /**********    6. RULES   *********/
 
-hr.style1 {
+hr {
 	border-top: .625rem solid #98d2c3;
 	border-radius: .125rem;
 	margin-top: 25%;
@@ -227,13 +203,8 @@ hr.style1 {
 	border: 1px solid grey;
 	line-height: 1.375rem;
 }
-
 .button-style:hover, .button-style:focus {
 	background: #8cc4b4;
-}
-.slick-dots {
-	position: relative;
-	margin: 0 auto;
 }
 #container p {
 	padding-right: 20%;
@@ -246,6 +217,9 @@ hr.style1 {
 
 
 /**********  8. REVIEWS **********/
+blockquote {
+	margin: 0;
+}
 
 #review-quote {
 	background: url(../img/reviews-quote.svg);
@@ -255,6 +229,11 @@ hr.style1 {
 
 
 /**********   9. SOCIAL MEDIA   **********/
+
+.slick-dots {
+	position: relative;
+	margin: 0 auto;
+}
 
 #facebook-large, #facebook-large:hover, #etsy-large, #etsy-large:hover, #insta-large, #insta-large:hover {
 	width: 6.25rem;
@@ -281,8 +260,10 @@ hr.style1 {
 }
 
 
-
 /*********** 10. FORM STYLING ***********/
+.message-box {
+	height: 9.1rem;
+}
 
 input[type=submit] {
 	width: 10em;
@@ -295,41 +276,34 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
 }
 
 ::-webkit-input-placeholder {
-   color: #98d2c3;
+ color: #98d2c3;
 }
 
 :-moz-placeholder { /* Firefox 18- */
-   color: #98d2c3;  
+ color: #98d2c3;
 }
 
 ::-moz-placeholder {  /* Firefox 19+ */
-   color: #98d2c3;  
+ color: #98d2c3;
 }
-
-input:-ms-input-placeholder, :-ms-input-placeholder {  
-   color: #98d2c3;  
+ input:-ms-input-placeholder, :-ms-input-placeholder {
+ color: #98d2c3;
 }
-
 .button-style {
 	font-family: 'Raleway', sans-serif;
 }
 
 
-
 /*********** 11. MEDIA QUERIES ***********/
 
-
 @media only screen and (max-width: 40em) {  /*ONLY SMALL*/
-
 
 h1 {
 	font-size: 3rem;
 }
-
 .above-row-margin {
 	margin-top: 5rem;
 }
-
 .intro-text {
 	text-align: center;
 }
@@ -337,7 +311,7 @@ h1 {
 	font-size: 1.25rem;
 	line-height: 2.5rem;
 }
-hr.style1 {
+hr {
 	border-top: .3125rem solid #98d2c3;
 	border-radius: .3125rem;
 	margin-top: 25%;
@@ -345,7 +319,7 @@ hr.style1 {
 #insta-large, #etsy-large, #facebook-large, #insta-large:hover, #etsy-large:hover, #facebook-large:hover {
 	height: 4.6875rem;
 	width: 4.6875rem;
-	background-color: transparent;
+	background-color: transparent; 
 }
 .col3, .col3 img {
 	width: 10rem;
@@ -365,30 +339,27 @@ hr.style1 {
 li.logo {
 	width: 5rem;
 	height: 5rem;
-	margin-left: 0%;
+	margin-left:0;
 }
 .gray-logo {
 	height: 90%;
 	width: 90%;
-	margin:0 auto;
-	padding-bottom:40%;
-	margin;top:-18px;
+	margin: 0 auto;
+	padding-bottom: 40%;
+	top: -18px;
 }
-
 .hero {
 	background: url(../img/placeholder-hero.jpg);
-	background-size:cover;
+	background-size: cover;
 	height: 90%;
 }
 }
-
 
 @media only screen and (max-width: 58.75em) {     /*SMALL AND MEDIUM*/
 
 ul.right li {
 	margin-top: .9375rem;
 }
-
 h2 {
 	font-size: 2.5rem;
 }
@@ -455,7 +426,7 @@ ul.right {
 li.logo {
 	width: 5rem;
 	height: 5rem;
-	margin-left: 0%;
+	margin-left:0;
 }
 }
 
@@ -464,7 +435,6 @@ li.logo {
 h1 {
 	font-size: 4.375rem;
 }
-
 .single-sentence p {
 	font-size: 1.5625rem;
 }
@@ -475,27 +445,21 @@ h1 {
 .toggle-topbar menu-icon {
 	color: #ffffff;
 }
-
 .hero {
 	background: url(../img/placeholder-hero.jpg);
-	background-size:cover;
+	background-size: cover;
 	height: 80%;
 }
-
 .intro-text {
-	margin-left:5%;
+	margin-left: 5%;
 }
-
 .below-hero-margin {
 	margin-top: -4rem;
 }
-
-
 }
 
 
-
-@media only screen and (min-width: 58.75em) {      /*TOP BAR LARGE AND UP */
+@media only screen and (min-width: 58.75em) {   /*LARGE AND UP*/
 
 .top-bar-section li:not(.has-form) a:not(.button) {
 	background: #98D2C3;
@@ -505,6 +469,7 @@ h1 {
 .top-bar-section li:not(.has-form) a:not(.button):hover {
 	background-color: #98D2C3;
 }
+
 ul.left {
 	text-align: center;
 	margin-top: 1.25rem;
@@ -517,15 +482,8 @@ ul.right {
 li.logo {
 	width: 5rem;
 	height: 5rem;
-	margin-left: 0%;
+	margin-left:0;
 }
-
-
-}
-
-
-@media only screen and (min-width: 58.75em) {   /*LARGE AND UP*/
-
 ul.left {
 	text-align: center;
 	margin-top: 1.25rem;
@@ -539,38 +497,32 @@ ul.right {
 li.logo {
 	width: 5rem;
 	height: 5rem;
-	margin-left: 0%;
+	margin-left:0;
 }
 .below-hero-margin {
 	margin-top: 5.5rem;
 }
 }
 
-@media only screen and (orientation:portrait) {
- header {
+@media only screen and (orientation:portrait) { /*this changes anything on portrait devices*/
+	
+header {
 	height: 60%;
 }
 }
 
-
-@media only screen and (min-width: 90.063em) {
+@media only screen and (min-width: 90.063em) { /*XL screens and up*/
 h1 {
-	color:white; 
-	font-size:6rem;
-} /* min-width 1441px, xlarge screens */
- header {
+	color: white;
+	font-size: 6rem;
+}
+header {
 	height: 65%;
 }
 .intro-text {
-	margin-left:-200px;
+	margin-left: -200px;
 }
-
-.xl-left-margin {
-	margin-left:-200px;
+.large-8 { /*this changes the line length of quotes*/
+	width: 50%;
 }
-
- .large-8 {
-    width: 50%; }
 }
-
-
